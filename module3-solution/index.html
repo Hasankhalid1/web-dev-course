@@ -2,9 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Module 3 Solution</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Food, LLC Menu</title>
+  
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+ 
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello, Module 3!</h1>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Mobile menu toggle button -->
+        <button
+          type="button"
+          class="navbar-toggle collapsed visible-xs"
+          data-toggle="collapse"
+          data-target="#mobile-menu"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Mobile dropdown menu -->
+      <div class="collapse navbar-collapse visible-xs" id="mobile-menu">
+        <ul class="nav navbar-nav mobile-dropdown-menu">
+          <li><a href="#">Chicken</a></li>
+          <li><a href="#">Beef</a></li>
+          <li><a href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+  </div>
+
+  <!-- Tall Section -->
+  <section class="container">
+    <div class="row">
+      <div class="col-xs-12 tall-section">
+        <p>
+          Welcome to Food, LLC! Enjoy our delicious menu selections including
+          chicken, beef, and sushi. Scroll down to explore more.
+        </p>
+        <p>
+          Welcome to Food, LLC! We pride ourselves on offering a diverse and delicious menu that caters to all tastes<br>
+        Our dishes are crafted with care, using fresh ingredients and authentic recipes.
+         Whether you’re a fan of tender chicken, savory beef, or fresh sushi, we have something special for you. Our restaurant provides a warm and welcoming atmosphere where everyone can enjoy great food and excellent service.
+          We look forward to serving you soon!
+        </p>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- jQuery and Bootstrap JS -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+  ></script>
 </body>
 </html>
