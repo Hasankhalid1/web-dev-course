@@ -1,1 +1,29 @@
+/* Tall section styling */
+.tall-section {
+  height: 1000px; /* Tall enough to cause scrolling */
+  background-color: #f9f9f9; /* Light background color */
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  font-size: 16px;
+}
+
+/* Mobile dropdown menu takes full width and distinct background */
+.mobile-dropdown-menu {
+  background-color: #337ab7; /* Bootstrap blue */
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Mobile menu item styles */
+.mobile-dropdown-menu > li > a {
+  color: white !important;
+  font-weight: bold;
+  padding: 15px 20px;
+}
+
+/* Remove border above dropdown when open */
+.navbar-default .navbar-collapse.collapse.in {
+  border-top: none;
+}
 
